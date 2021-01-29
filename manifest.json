@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 {
     "name": "stock-fish-extension",
     "version": "1.0",
     "manifest_version": 2
+=======
+{
+  "name": "Get pages source",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Get pages source from a popup",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+>>>>>>> 9e163b56977f7e447a0bd9f243f6408adf781f74
 }
