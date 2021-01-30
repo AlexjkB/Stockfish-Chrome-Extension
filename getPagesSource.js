@@ -93,5 +93,6 @@ function translateToFEN(array) {
 
 chrome.runtime.sendMessage({
     action: "getSource",
+	//get rid of translatetoFEN and findPieces function to print just full html
     source: translateToFEN(findPieces(DOMtoString(document)))
 });
